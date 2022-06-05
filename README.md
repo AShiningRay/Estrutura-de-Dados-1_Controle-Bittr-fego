@@ -10,7 +10,7 @@ O projeto possui compatibilidadae com o MongoDB, permitindo salvar os histórico
 
 ## Processo de compilação
 
-O projeto pode ser compilado tanto pelo Apache Netbeans, quanto pelo Java Ant, seja no Windows, Linux, ou qualquer outra plataforma. Porém, apenas Windows e Linux foram testados. Para utilizar o Apache Netbeans, basta abrir o conteúdo deste repositório como um projeto neste, e compilar o projeto como normalmente é feito na ferramenta, já para o Java Ant, aponte seu terminal ou console para a pasta do projeto (build.xml deve estar na raíz) e execute "ant jar" para gerar os arquivos binários.
+O projeto pode ser compilado tanto pelo Apache Netbeans, quanto pelo Java Ant, seja no Windows, Linux, ou qualquer outra plataforma. Porém, apenas Windows e Linux foram testados. Para utilizar o Apache Netbeans, basta abrir o conteúdo deste repositório como um projeto neste, e compilar o projeto como normalmente é feito na ferramenta, já para o Java Ant, aponte seu terminal ou console para a pasta do projeto (build.xml deve estar na raíz), crie uma pasta `build` nela e execute "ant jar" para gerar os arquivos binários.
 
 É necessário frisar que a utilização do driver do mongoDB é obrigatória, mesmo que não haja intuito de se conectar ao BD. Para baixar o driver, basta acessar o seguinte link: http://www.java2s.com/ref/jar/download-mongojavadriver350jar-file.html.
 
