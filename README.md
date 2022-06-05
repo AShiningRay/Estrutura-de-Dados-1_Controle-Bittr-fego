@@ -6,6 +6,8 @@ Arquivo do projeto "Controle Bittráfego" criado para a matéria de Estrutura de
 
 Controle Bittráfego é um projeto que utiliza conceitos de Estrutura de Dados 1 para simular um cruzamento com semáforos, e um estacionamento. Para isso, ele se utiliza de estruturas como Pilhas e Filas, onde o cruzamento utiliza uma Fila para cada rua, e o Estacionamento, uma Pilha apenas. O desenfileiramento das ruas ocorre de acordo com a situação dos semárofos, que assim como a chegada de carros nas ruas (que possui um elemento de aleatoriedade), atua por meio de um Timer. O estacionamento por sua vez é relativamente desacoplado do funcionamento do cruzamento, empilhando e desempilhando aleatoriamente conforme um Timer.
 
+Todos os assets vistos nas imagens são pré-renderizados, então os requisitos de sistema são bem abrangentes.
+
 O projeto possui compatibilidadae com o MongoDB, permitindo salvar os históricos do estacionamento e do cruzamento em um banco de dados, mas essa funcionalidade não foi testada novamente na data de upload deste projeto para o Github.
 
 ## Processo de compilação
